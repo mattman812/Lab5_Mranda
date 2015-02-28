@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6229DA671AA13E1B00AC9788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DA661AA13E1B00AC9788 /* Foundation.framework */; };
+		6229DA691AA13E1B00AC9788 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DA681AA13E1B00AC9788 /* CoreGraphics.framework */; };
+		6229DA6B1AA13E1B00AC9788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DA6A1AA13E1B00AC9788 /* UIKit.framework */; };
+		6229DA711AA13E1B00AC9788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6229DA6F1AA13E1B00AC9788 /* InfoPlist.strings */; };
+		6229DA731AA13E1B00AC9788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DA721AA13E1B00AC9788 /* main.m */; };
+		6229DA771AA13E1B00AC9788 /* MVRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DA761AA13E1B00AC9788 /* MVRAppDelegate.m */; };
+		6229DA7A1AA13E1B00AC9788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6229DA781AA13E1B00AC9788 /* Main.storyboard */; };
+		6229DA7D1AA13E1B00AC9788 /* MVRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DA7C1AA13E1B00AC9788 /* MVRViewController.m */; };
+		6229DA7F1AA13E1B00AC9788 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6229DA7E1AA13E1B00AC9788 /* Images.xcassets */; };
+		6229DA861AA13E1B00AC9788 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DA851AA13E1B00AC9788 /* XCTest.framework */; };
+		6229DA871AA13E1B00AC9788 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DA661AA13E1B00AC9788 /* Foundation.framework */; };
+		6229DA881AA13E1B00AC9788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6229DA6A1AA13E1B00AC9788 /* UIKit.framework */; };
+		6229DA901AA13E1B00AC9788 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6229DA8E1AA13E1B00AC9788 /* InfoPlist.strings */; };
+		6229DA921AA13E1B00AC9788 /* Lab5_MrandaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6229DA911AA13E1B00AC9788 /* Lab5_MrandaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6229DA891AA13E1B00AC9788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6229DA5B1AA13E1B00AC9788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6229DA621AA13E1B00AC9788;
+			remoteInfo = Lab5_Mranda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6229DA631AA13E1B00AC9788 /* Lab5_Mranda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab5_Mranda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6229DA661AA13E1B00AC9788 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6229DA681AA13E1B00AC9788 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6229DA6A1AA13E1B00AC9788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6229DA6E1AA13E1B00AC9788 /* Lab5_Mranda-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab5_Mranda-Info.plist"; sourceTree = "<group>"; };
+		6229DA701AA13E1B00AC9788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6229DA721AA13E1B00AC9788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6229DA741AA13E1B00AC9788 /* Lab5_Mranda-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lab5_Mranda-Prefix.pch"; sourceTree = "<group>"; };
+		6229DA751AA13E1B00AC9788 /* MVRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVRAppDelegate.h; sourceTree = "<group>"; };
+		6229DA761AA13E1B00AC9788 /* MVRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVRAppDelegate.m; sourceTree = "<group>"; };
+		6229DA791AA13E1B00AC9788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6229DA7B1AA13E1B00AC9788 /* MVRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVRViewController.h; sourceTree = "<group>"; };
+		6229DA7C1AA13E1B00AC9788 /* MVRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVRViewController.m; sourceTree = "<group>"; };
+		6229DA7E1AA13E1B00AC9788 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6229DA841AA13E1B00AC9788 /* Lab5_MrandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab5_MrandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6229DA851AA13E1B00AC9788 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6229DA8D1AA13E1B00AC9788 /* Lab5_MrandaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lab5_MrandaTests-Info.plist"; sourceTree = "<group>"; };
+		6229DA8F1AA13E1B00AC9788 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6229DA911AA13E1B00AC9788 /* Lab5_MrandaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab5_MrandaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6229DA601AA13E1B00AC9788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DA691AA13E1B00AC9788 /* CoreGraphics.framework in Frameworks */,
+				6229DA6B1AA13E1B00AC9788 /* UIKit.framework in Frameworks */,
+				6229DA671AA13E1B00AC9788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6229DA811AA13E1B00AC9788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DA861AA13E1B00AC9788 /* XCTest.framework in Frameworks */,
+				6229DA881AA13E1B00AC9788 /* UIKit.framework in Frameworks */,
+				6229DA871AA13E1B00AC9788 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6229DA5A1AA13E1B00AC9788 = {
+			isa = PBXGroup;
+			children = (
+				6229DA6C1AA13E1B00AC9788 /* Lab5_Mranda */,
+				6229DA8B1AA13E1B00AC9788 /* Lab5_MrandaTests */,
+				6229DA651AA13E1B00AC9788 /* Frameworks */,
+				6229DA641AA13E1B00AC9788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6229DA641AA13E1B00AC9788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6229DA631AA13E1B00AC9788 /* Lab5_Mranda.app */,
+				6229DA841AA13E1B00AC9788 /* Lab5_MrandaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6229DA651AA13E1B00AC9788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6229DA661AA13E1B00AC9788 /* Foundation.framework */,
+				6229DA681AA13E1B00AC9788 /* CoreGraphics.framework */,
+				6229DA6A1AA13E1B00AC9788 /* UIKit.framework */,
+				6229DA851AA13E1B00AC9788 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6229DA6C1AA13E1B00AC9788 /* Lab5_Mranda */ = {
+			isa = PBXGroup;
+			children = (
+				6229DA751AA13E1B00AC9788 /* MVRAppDelegate.h */,
+				6229DA761AA13E1B00AC9788 /* MVRAppDelegate.m */,
+				6229DA781AA13E1B00AC9788 /* Main.storyboard */,
+				6229DA7B1AA13E1B00AC9788 /* MVRViewController.h */,
+				6229DA7C1AA13E1B00AC9788 /* MVRViewController.m */,
+				6229DA7E1AA13E1B00AC9788 /* Images.xcassets */,
+				6229DA6D1AA13E1B00AC9788 /* Supporting Files */,
+			);
+			path = Lab5_Mranda;
+			sourceTree = "<group>";
+		};
+		6229DA6D1AA13E1B00AC9788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6229DA6E1AA13E1B00AC9788 /* Lab5_Mranda-Info.plist */,
+				6229DA6F1AA13E1B00AC9788 /* InfoPlist.strings */,
+				6229DA721AA13E1B00AC9788 /* main.m */,
+				6229DA741AA13E1B00AC9788 /* Lab5_Mranda-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6229DA8B1AA13E1B00AC9788 /* Lab5_MrandaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6229DA911AA13E1B00AC9788 /* Lab5_MrandaTests.m */,
+				6229DA8C1AA13E1B00AC9788 /* Supporting Files */,
+			);
+			path = Lab5_MrandaTests;
+			sourceTree = "<group>";
+		};
+		6229DA8C1AA13E1B00AC9788 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6229DA8D1AA13E1B00AC9788 /* Lab5_MrandaTests-Info.plist */,
+				6229DA8E1AA13E1B00AC9788 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6229DA621AA13E1B00AC9788 /* Lab5_Mranda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6229DA951AA13E1B00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_Mranda" */;
+			buildPhases = (
+				6229DA5F1AA13E1B00AC9788 /* Sources */,
+				6229DA601AA13E1B00AC9788 /* Frameworks */,
+				6229DA611AA13E1B00AC9788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lab5_Mranda;
+			productName = Lab5_Mranda;
+			productReference = 6229DA631AA13E1B00AC9788 /* Lab5_Mranda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6229DA831AA13E1B00AC9788 /* Lab5_MrandaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6229DA981AA13E1B00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_MrandaTests" */;
+			buildPhases = (
+				6229DA801AA13E1B00AC9788 /* Sources */,
+				6229DA811AA13E1B00AC9788 /* Frameworks */,
+				6229DA821AA13E1B00AC9788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6229DA8A1AA13E1B00AC9788 /* PBXTargetDependency */,
+			);
+			name = Lab5_MrandaTests;
+			productName = Lab5_MrandaTests;
+			productReference = 6229DA841AA13E1B00AC9788 /* Lab5_MrandaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6229DA5B1AA13E1B00AC9788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MVR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Lab5_Mranda;
+				TargetAttributes = {
+					6229DA831AA13E1B00AC9788 = {
+						TestTargetID = 6229DA621AA13E1B00AC9788;
+					};
+				};
+			};
+			buildConfigurationList = 6229DA5E1AA13E1B00AC9788 /* Build configuration list for PBXProject "Lab5_Mranda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6229DA5A1AA13E1B00AC9788;
+			productRefGroup = 6229DA641AA13E1B00AC9788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6229DA621AA13E1B00AC9788 /* Lab5_Mranda */,
+				6229DA831AA13E1B00AC9788 /* Lab5_MrandaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6229DA611AA13E1B00AC9788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DA7F1AA13E1B00AC9788 /* Images.xcassets in Resources */,
+				6229DA711AA13E1B00AC9788 /* InfoPlist.strings in Resources */,
+				6229DA7A1AA13E1B00AC9788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6229DA821AA13E1B00AC9788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DA901AA13E1B00AC9788 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6229DA5F1AA13E1B00AC9788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DA771AA13E1B00AC9788 /* MVRAppDelegate.m in Sources */,
+				6229DA731AA13E1B00AC9788 /* main.m in Sources */,
+				6229DA7D1AA13E1B00AC9788 /* MVRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6229DA801AA13E1B00AC9788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6229DA921AA13E1B00AC9788 /* Lab5_MrandaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6229DA8A1AA13E1B00AC9788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6229DA621AA13E1B00AC9788 /* Lab5_Mranda */;
+			targetProxy = 6229DA891AA13E1B00AC9788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6229DA6F1AA13E1B00AC9788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6229DA701AA13E1B00AC9788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6229DA781AA13E1B00AC9788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6229DA791AA13E1B00AC9788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6229DA8E1AA13E1B00AC9788 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6229DA8F1AA13E1B00AC9788 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6229DA931AA13E1B00AC9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6229DA941AA13E1B00AC9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6229DA961AA13E1B00AC9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Mranda/Lab5_Mranda-Prefix.pch";
+				INFOPLIST_FILE = "Lab5_Mranda/Lab5_Mranda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6229DA971AA13E1B00AC9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Mranda/Lab5_Mranda-Prefix.pch";
+				INFOPLIST_FILE = "Lab5_Mranda/Lab5_Mranda-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6229DA991AA13E1B00AC9788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lab5_Mranda.app/Lab5_Mranda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Mranda/Lab5_Mranda-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Lab5_MrandaTests/Lab5_MrandaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6229DA9A1AA13E1B00AC9788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Lab5_Mranda.app/Lab5_Mranda";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lab5_Mranda/Lab5_Mranda-Prefix.pch";
+				INFOPLIST_FILE = "Lab5_MrandaTests/Lab5_MrandaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6229DA5E1AA13E1B00AC9788 /* Build configuration list for PBXProject "Lab5_Mranda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6229DA931AA13E1B00AC9788 /* Debug */,
+				6229DA941AA13E1B00AC9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6229DA951AA13E1B00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_Mranda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6229DA961AA13E1B00AC9788 /* Debug */,
+				6229DA971AA13E1B00AC9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6229DA981AA13E1B00AC9788 /* Build configuration list for PBXNativeTarget "Lab5_MrandaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6229DA991AA13E1B00AC9788 /* Debug */,
+				6229DA9A1AA13E1B00AC9788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6229DA5B1AA13E1B00AC9788 /* Project object */;
+}
